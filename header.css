@@ -1,0 +1,78 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: rgba(255, 255, 255, 0.408);
+    font-size: 18px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 82px;
+    color: white;
+    z-index: 999;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+    
+}
+
+.kia-logo{
+    fill: white;
+}
+
+.header:hover{
+    background-color: white;
+    color: black;
+}
+
+.header:hover .kia-logo{
+    fill: black;
+}
+
+
+.header-left , .header-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    border-bottom: 2px solid rgba(238, 238, 238, 0);
+    font-size: 15px ;
+}
+
+
+
+.text:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+#v-line:hover{
+    border-bottom: 2px solid rgba(208, 208, 208, 0);
+}
+
+.find-dealer{
+    font-size: 15px;
+    
+}
+
+.find-dealer:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.header-middle{
+    display: flex;
+    align-items: center;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}

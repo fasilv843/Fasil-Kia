@@ -1,0 +1,87 @@
+
+.footer{
+    background-color: rgb(5, 20, 31);
+    color: white;
+}
+
+.kia-icon-container{
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.footer-links-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+}
+
+.main-links-container{
+    margin-left: 100px;
+}
+
+.footer-main-links{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.footer-main-links:hover{
+    
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1.5px;
+}
+.footer-heading{
+    cursor: pointer;
+}
+.social-media-logos{
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer-icon-div{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+.footer-links{
+    color: grey;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-links:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+}
+
+.sub-footer{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.home-icon{
+    margin-left: 100px;
+    width: 16px;
+    
+}
+
+.home-text{
+    display: inline-block;
+    font-size: 15px;
+    color: gray;
+}
+
+.footer-text{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 13px;
+    color: gray;
+}

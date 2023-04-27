@@ -1,0 +1,63 @@
+
+.video-container{
+    height: 713px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bg-video{
+    object-fit: cover;
+    /* opacity: 0; */
+}
+
+.video-hashtag-div{
+    position: absolute;
+    bottom: 150px;
+}
+
+.video-hashtag{
+    color: white;
+    font-family: Kia Signature;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.video-button-div{
+    position: absolute;
+    bottom: 65px;
+    font-weight: bold;
+    font-family: kia;
+}
+
+.video-button{
+    background-color: rgb(5, 20, 31);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21px 42px;
+    cursor: pointer;
+}
+
+.arrow-icon{
+    position: absolute;
+    right: 40px;
+    bottom: 350px;
+}
+
+.arrow-button{
+
+    font-size: 20px;
+    padding: 26px 30px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.433);
+    color: white;
+    border: none;
+}
+
+.arrow-button:hover{
+    background-color: black;
+}

@@ -1,0 +1,42 @@
+
+
+.photo-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-left-banner{
+    max-width: 100%;
+}
+
+.right-photo-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-right-imgs{
+    max-width: 100%;
+}
+
+.left-photo-div{
+    position: relative;
+}
+
+.left-banner-div{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    display: grid;
+}
+
+.now-icoty{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.watch-now{
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+}

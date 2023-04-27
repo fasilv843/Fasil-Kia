@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Kia Signature';
+    font-style: normal;
+    font-weight: 400;
+    src: url('path/to/kia-signature-regular.woff2') format('woff2'),
+         url('path/to/kia-signature-regular.woff') format('woff');
+}
+
+body{
+    font-family: 'Kia Signature', sans-serif;
+    background-color: rgb(5, 20, 31);
+    margin: 0;
+}
+
+.plus-button{
+
+    font-size: 20px;
+    padding: 16px 22px;
+    border-radius: 50px;
+    background-color: rgb(5, 20, 31);
+    color: white;
+    border: none;
+
+}
+.plus-icon{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
